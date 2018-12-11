@@ -1,0 +1,49 @@
+[
+    {
+        "name": "sentiment",
+        "call": "MTserviceswrapper_sentiment",
+        "resfiles":  ["prod/SALR_SEMEVAL_NB2.msmdl"],
+		"defaultService":1
+    },
+    {
+        "name": "problemDetection",
+        "call": "MTserviceswrapper_problem",
+		"resfiles": ["prod/PD_VPAnalysis4SKLR.msmdl"],
+		"defaultService":1
+
+    },
+    {
+        "name": "keywords",
+        "call": "MTserviceswrapper_keywords",
+		"resfiles": [],
+		"defaultService":1
+    },
+    {
+        "name": "tokstags",
+        "call": "MTserviceswrapper_tokstags",
+		"resfiles": [],
+		"defaultService":1
+    },
+    {
+        "name": "phraseanalysis",
+        "call": "MTserviceswrapper_phraseanalysis",
+		"resfiles": [],
+		"defaultService":0
+    },
+    {
+        "name": "entitySentiment",
+        "call": "MTserviceswrapper_entity",
+		"resfiles": [],
+		"defaultService":1
+    },
+    {
+        "name": "escalation",
+        "call": "MTserviceswrapper_escalation",
+		"defaultService":1
+    },
+    {
+        "name": "text_sentiment",
+        "call": "MTserviceswrapper_text_sentiment_lenovo",
+		"defaultService":0
+    }
+]
